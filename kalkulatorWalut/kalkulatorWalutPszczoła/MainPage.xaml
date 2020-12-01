@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="kalkulatorWalutPszczoła.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kalkulatorWalutPszczoła"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignHeight="555" Width="337">
+    <Page.Resources>
+        <DataTemplate x:Key="walutyDoListBoxa">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding kod_waluty}"/>
+                <TextBlock Text=":"/>
+                <TextBlock Text="{Binding kurs_sredni}" Width="50" TextAlignment="Right"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Loaded="NBPLoaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="20">
+            <TextBlock Text="Kalkulator" Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBlock Text="Walut" Style="{ThemeResource CaptionTextBlockStyle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"  Margin="5">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Z waluty" Margin="10,5"/>
+                <TextBox  Width="160" Name="txtKwota" TextAlignment="Right" InputScope="CurrencyAmount" TextChanged="txtKwota_TextChanged" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Przeliczone"/>
+                <TextBlock Width="160" Name="tbPrzeliczona" TextAlignment="Right"/>
+            </StackPanel>
+            <TextBlock Text="z waluty ==> na walute" Margin="75,5"/>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <ListBox  Name="lbxZWaluty" Width="140" Height="180" ItemTemplate="{StaticResource walutyDoListBoxa}" SelectionChanged="waluty_SelectionChanged"/>
+                <ListBox  Name="lbxNaWalute" Width="140" Height="180" ItemTemplate="{StaticResource walutyDoListBoxa}" Margin="10,0,0,0" SelectionChanged="waluty_SelectionChanged"/>
+            </StackPanel>
+
+        </StackPanel>
+        <Button Name="btnOProgramie" Content="O programie" Width="100" Margin="10,325,0,0" Grid.Row="1" VerticalAlignment="Top" Click="btnOProgramie_Click"/>
+        <Button Name="btnPomoc" Content="Pomoc" Width="100" Margin="10,362,0,0" Grid.Row="1" VerticalAlignment="Top" Click="btnPomoc_Click"/>
+    </Grid>
+</Page>

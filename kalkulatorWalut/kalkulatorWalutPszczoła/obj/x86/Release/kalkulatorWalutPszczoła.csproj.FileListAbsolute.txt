@@ -1,0 +1,11 @@
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\kalkulatorWalutPszczoła.csprojAssemblyReference.cache
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\App.g.i.cs
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\App.g.cs
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\MainPage.g.i.cs
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\MainPage.g.cs
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\XamlTypeInfo.g.cs
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\App.xaml
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\MainPage.xaml
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\App.xbf
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\MainPage.xbf
+E:\Uczelnia\Aplikacje uniwersalne\kalkulatorWalutPszczoła\kalkulatorWalutPszczoła\obj\x86\Release\XamlSaveStateFile.xml
